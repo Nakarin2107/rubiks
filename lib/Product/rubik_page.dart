@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:pop/rubik_detail.dart';
+import 'package:pop/Product/rubik_detail.dart';
 
 class RubiksPage extends StatelessWidget {
   @override
@@ -22,22 +22,14 @@ class RubiksPage extends StatelessWidget {
                 mainAxisSpacing: 15.0,
                 childAspectRatio: 0.8,
                 children: <Widget>[
-                  _buildCard('GAN 12', '\$100.99', 'images/gan.png', false,
-                      false, context),
-                  _buildCard('RS3M', '\$40.99', 'images/rs3m.jpg', true, false,
+                  _buildCard('RS2M', '\$91.99', 'images/2x2.png', false, true,
                       context),
-                  _buildCard('Qiyi m pro', '\$75.99', 'images/qi.jpg', false,
-                      true, context),
-                  _buildCard('GAN 13', '\$127.99', 'images/gan2.png', false,
-                      true, context),
-                  _buildCard('GAN 13', '\$127.99', 'images/gan2.png', false,
+                  _buildCard('YJ MGC', '\$35.99', 'images/2x21.png', true,
                       false, context),
-                  _buildCard('GAN 13', '\$127.99', 'images/gan2.png', false,
+                  _buildCard('Gan 520', '\$95.99', 'images/2x22.png', false,
                       false, context),
-                  _buildCard('Qiyi m pro', '\$75.99', 'images/qi.jpg', false,
-                      true, context),
-                  _buildCard('Qiyi m pro', '\$75.99', 'images/qi.jpg', false,
-                      true, context),
+                  _buildCard('Gan Monster Go', '\$207.99', 'images/2x23.jpg',
+                      false, true, context),
                 ],
               )),
           SizedBox(height: 15.0)

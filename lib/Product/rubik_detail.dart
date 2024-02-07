@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_typing_uninitialized_variables, non_constant_identifier_names, avoid_types_as_parameter_names, sized_box_for_whitespace, use_key_in_widget_constructors, prefer_const_constructors_in_immutables
 import 'package:flutter/material.dart';
-import 'package:pop/bottom_bar.dart';
+import 'package:pop/components/bottom_bar.dart';
 
 class Rukibsking extends StatelessWidget {
   final assetPath, rukibs, rubiksname;
